@@ -43,6 +43,9 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'project.urls'
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",  # Vite dev server
+]
 
 TEMPLATES = [
     {
